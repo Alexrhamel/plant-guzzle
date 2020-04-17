@@ -1,3 +1,8 @@
+// Code by Alexandre
+// Code is not done
+// The motor aspect is in development but still not really implemented
+// The data logging is noy a feature yet but will be in the future
+
 #include "DHT.h"
 
 #define DHTPIN 2
@@ -60,7 +65,7 @@ float tempHumid() {
   float t = dht.readTemperature();
 
   if (isnan(h) || isnan(t)) {
-    Serial.println(F("Failed to read from DHT sensor!"));
+    Serial.println("Can't read the sensor");
     return;
   }
 
