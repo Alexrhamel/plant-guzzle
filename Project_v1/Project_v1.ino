@@ -1,6 +1,6 @@
 // Code by Alexandre
 // Code is not done
-// The motor aspect is in development but still not really implemented
+// The motor (pump) aspect is in development but still not really implemented
 // The data logging is noy a feature yet but will be in the future
 
 #include "DHT.h"
