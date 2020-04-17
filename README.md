@@ -1,4 +1,4 @@
-# plant-quaff
+# plant-guzzle
 
 This is a simple plant watering system for plants that are indoors using an arduino uno. This project is just a hobbyist project.
 It uses a variety of different sensors (soil moisture, light, humidity/temperature).
