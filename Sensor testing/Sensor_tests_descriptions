@@ -1,0 +1,4 @@
+Some of thos codes were taken or inspired from ressources of adafruit (dht sensors) and sparksfun (soil moisture).
+
+The only purpose of those files are to test the sensors and are not part of the watering system itself. 
+It was just usefull to include them in the repo.
