@@ -6,7 +6,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("DHTxx test!");
+  Serial.println("DHT11");
 
   dht.begin();
 }
@@ -19,7 +19,7 @@ void loop() {
   float f = dht.readTemperature(true);
 
   if (isnan(h) || isnan(t) || isnan(f)) {
-    Serial.println(F("Failed to read from DHT sensor!"));
+    Serial.println(F("Failed to read from DHT sensor"));
     return;
   }
 
