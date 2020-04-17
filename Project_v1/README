@@ -1,0 +1,3 @@
+This is the main file for the plant watering system.
+
+Current state : It only reads sensors and prints the values in the consol. THere is alos a little bit of code for the water pump.
