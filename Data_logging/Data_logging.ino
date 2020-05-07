@@ -23,7 +23,7 @@
 #include <SPI.h>
 #include <SD.h>
 
-const int chipSelect = 4;
+const int chipSelect = 10;
 
 void setup() {
   // Open serial communications and wait for port to open:
@@ -45,7 +45,8 @@ void setup() {
 }
 
 void loop() {
-  // make a string for assembling the data to log:
+
+  
   String dataString = "";
 
   // read three sensors and append to the string:
